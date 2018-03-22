@@ -28,3 +28,12 @@ function foo2() {
 console.log(foo1());
 console.log("----");
 console.log(foo2());
+
+
+function mul(params) {
+
+}
+
+
+console.log(mul(2)(3)(4)); // output : 24 
+console.log(mul(4)(3)(4)); // output : 48
