@@ -9,9 +9,9 @@ function sumOfTwo(array, target) {
     let answers = [];
     for (let i = 0; i < array.length; i++) {
         let firstNum = array[i];
-        for (let j = 0; j < array.length; j++) {
+        for (let j = 1; j < array.length; j++) {
             let secondNum = array[j];
-            if (firstNum + secondNum === target) {
+            if (firstNum + secondNum === target && i != j) {
                 answers.push(i, j);
                 return answers;
             }
