@@ -13,8 +13,9 @@ function calculateBreaks(scores) {
             maxBreak ++;
         }
     }
-    console.log("Min Break: ", minBreak);
     console.log("Max Break: ", maxBreak);
+    console.log("Min Break: ", minBreak);
+
 }
 
 calculateBreaks([10, 5,20, 20,4,5,2,25, 1])
