@@ -33,6 +33,7 @@ function longestSubsequence(s) {
                                         } else if (s[u] === "u") {
                                             count ++;
                                             console.log(`u @ ${u}`);
+
                                         }
                                     }
                                     break
@@ -56,3 +57,22 @@ function longestSubsequence(s) {
 const string = "aeiaaioooaauuaeiou";
 
 longestSubsequence(string);
+
+
+//consecutive sum
+
+/* 
+
+figen a long integer, find the number of ways to represent it as a sum of two or more consecuive positive  integers.
+
+given 15 outsup 3 
+
+ 1 2 3 4 5 
+ 4 5 6
+ 7 8
+
+given 10 1
+
+*/
+
+//Fizz Buzz
